@@ -22,7 +22,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: webpack artifacts
-        papth: public/
+        path: public/
   tests:
     runs-on: ubuntu-latest
     strategy:
